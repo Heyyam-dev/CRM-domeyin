@@ -1,4 +1,4 @@
-# ── Compiled output ──────────────────────────────────────
+# C++
 *.exe
 *.out
 *.o
@@ -10,7 +10,7 @@
 *.map
 *.d
 
-# ── Build directories ────────────────────────────────────
+# Build
 build/
 bin/
 out/
@@ -19,45 +19,39 @@ Release/
 x64/
 x86/
 
-# ── Visual Studio ────────────────────────────────────────
-.vs/
-*.vcxproj.user
-*.ncb
-*.sdf
-*.opensdf
-*.suo
-*.user
-
-# ── VS Code ──────────────────────────────────────────────
-.vscode/
-
-# ── CLion / JetBrains ────────────────────────────────────
-.idea/
-cmake-build-*/
-
-# ── CMake ────────────────────────────────────────────────
+# CMake
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
 
-# ── Node.js ──────────────────────────────────────────────
+# Visual Studio
+.vs/
+*.vcxproj.user
+
+# VS Code
+.vscode/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# .NET / C#
+obj/
+*.nupkg
+*.user
+
+# Node.js
 node_modules/
 npm-debug.log*
 yarn-error.log*
 
-# ── Environment / secrets ────────────────────────────────
+# Environment
 .env
 .env.local
 .env.*.local
 
-# ── .NET / C# ────────────────────────────────────────────
-*.user
-bin/
-obj/
-*.nupkg
-
-# ── OS ───────────────────────────────────────────────────
+# OS
+.DS_Store
 Thumbs.db
 desktop.ini
-.DS_Store
